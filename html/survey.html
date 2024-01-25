@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="../css/survey.css">
+            <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" />
+            <title>Survey</title>
+      </head>
+      <body>
+            <div id="container">
+                  <header>
+                        <div class="heading">
+                              <h1>Sci-Find</h1>
+                              <p>Examining Some of the Greatest Works in Sci-Fi </p>
+                        </div>
+                        <nav class="navbar">
+                              <div class="logo_div">
+                                    
+                                    <img src="../Images/Sci-Find.jpg" alt="" class="logo">
+                              </div>
+                              <ul class="nav_list">
+                                    <li class="nav_list_Home"><a href="../html/index.html" target="_blank">Home</a></li>
+                                    <li class="nav_list_Hard"><a href="../html/hard_scifi.html" target="_blank">Hard Sci-fi</a></li>
+                                    <li class="nav_list_Cyber"><a href="../html/gallery.html" target="_blank">Gallery</a></li>
+                                    <li class="nav_list_Cyber"><a href="../html/survey.html" target="_blank">Survey</a></li>
+                              </ul>
+                              <!-- <a href="#"><button class="contact_button">Contact</button></a> -->
+                        </nav>
+                  </header>
+                  <main>
+                        <div class="form_container">
+                              <h1>Science Fiction Survey</h1>
+                              <form>
+                                    <fieldset class="fieldset1">
+                                          <legend>Personal Information</legend>
+                                    
+                                          <div class="pers_info">
+                                                <div>
+                                                      <label>Gender:</label>
+                                                      <div id="gender_options">
+                                                            <div>
+                                                                  <select>
+                                                                        <option>---Select---</option>
+                                                                        <option>Male</option>
+                                                                        <option>Female</option>
+                                                                        <option>Prefer not to answer</option>
+                                                                        <option>Other</option>
+                                                                  </select>
+                                                            </div>       
+                                                      </div>
+                                                </div>
+
+                                                <br>
+                                                <div>
+                                                      <label>What is your age?</label>
+                                                      <label for="form_radio"></label>
+                                                      <div>
+                                                            <input type="radio" id="form_radio" name="age" value="Option 1">
+                                                            <label>Under 18</label>
+                                                      </div>
+                                                      <div>
+                                                            <input type="radio" id="form_radio" name="age" value="Option 2">
+                                                            <label>18-25</label>
+                                                      </div>
+                                                      <div>
+                                                            <input type="radio" id="form_radio" name="age" value="Option 3">
+                                                            <label>26-35</label>
+                                                      </div>
+                                                      <div>
+                                                            <input type="radio" id="form_radio" name="age" value="Option 4">
+                                                            <label>36-45</label>
+                                                      </div>
+                                                      <div>
+                                                            <input type="radio" id="form_radio" name="age" value="Option 5">
+                                                            <label>46-55</label>
+                                                      </div>
+                                                      <div>
+                                                            <input type="radio" id="form_radio" name="age" value="Option 6">
+                                                            <label>56-65</label>
+                                                      </div>
+                                                      <div>
+                                                            <input type="radio" id="form_radio" name="age" value="Option 7">
+                                                            <label>66-75</label>
+                                                      </div>
+                                                      <div>
+                                                            <input type="radio" id="form_radio" name="age" value="Option 8">
+                                                            <label>76 or older</label>
+                                                      </div>
+                                                </div>
+                                          </div>
+                                    </fieldset>
+
+                                    <br>
+
+                                    <fieldset class="fieldset2">
+                                          <legend>Genres</legend>
+                                    
+                                          <div class="genres">
+                                                <div>
+                                                      <label>What are your favorite Sci-fi Genres? (Select all that apply):</label>
+                                                      <div id="scifi_genres">
+                                                            <div>
+                                                                  <select>
+                                                                        <option>---Select---</option>
+                                                                        <option>Hard Sci-fi</option>
+                                                                        <option>Sofi Sci-fi</option>
+                                                                        <option>Cyberpunk</option>
+                                                                        <option>Steampunk</option>
+                                                                        <option>Space Opera</option>
+                                                                        <option>Dystopian</option>
+                                                                        <option>Military</option>
+                                                                        <option>Other</option>
+
+                                                                  </select>
+                                                            </div>       
+                                                      </div>
+
+                                                      <br>
+
+                                                      <label>What are other Genres do you enjoy? (select all that apply):</label>
+                                                      <div id="other_genres">
+                                                            <div>
+                                                                  <select>
+                                                                        <option>---Select---</option>
+                                                                        <option>Fantasy</option>
+                                                                        <option>Historical</option>
+                                                                        <option>Horror</option>
+                                                                        <option>Mystery</option>
+                                                                        <option>Non-Fiction</option>
+                                                                        <option>Thrillers</option>
+                                                                        <option>Other</option>
+                                                                  </select>
+                                                            </div>       
+                                                      </div>
+
+                                                      <br>
+
+                                                      <label for="form_novel">Favorite Sci-fi Novel</label>
+                                                      <input type="text" name="fav_novel" id="form_novel">
+                                                </div>
+                                    </fieldset>
+                                    <div class="form_buttons">
+                                          <input id="submit" type="submit" value="Submit">
+                                          <input id="reset" type="reset" value="Reset">
+                                    </div>
+                              </form>
+                              
+
+                        </div>
+                  </main>
+                  <footer>
+                        <p>&copy;Copyright 2023.  All Rights Reserved.</p>
+                        <p><a href = "mailto:contact@scifind.com">contact@scifind.com</a></p>
+                  </footer>
+
+            </div>
+      </body>     
+</html>
